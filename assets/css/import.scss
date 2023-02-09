@@ -1236,7 +1236,8 @@ input {
 
 
 #news {
-	background-image: url('../images/bg-section-news.jpg');
+	background-image: url('../images/common/back_fuji.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
@@ -2131,7 +2132,8 @@ input {
 }
 
 #shop {
-	background-image: url('../images/bg-section-shop.jpg');
+	background-image: url('../images/common/malta.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
 }
