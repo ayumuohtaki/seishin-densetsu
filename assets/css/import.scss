@@ -27,6 +27,7 @@ Twitter: @rich_clark
 $first: #144da0; /*モルディブ・ブルー*/
 $second: #70acce; /*クーリッシュ・ブルー*/
 $text: #343434; /*黒文字*/
+$white-back: #F4F5F7; /*青みがかった白*/
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -3478,4 +3479,4 @@ input[type="submit"]::after {
 
 
 
-@import "header.scss" , "footer.scss" , "keyvisual.scss" 
+@import "header.scss" , "footer.scss" , "keyvisual.scss" ,"company.scss" 
