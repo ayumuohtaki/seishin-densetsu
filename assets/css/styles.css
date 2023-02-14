@@ -4048,6 +4048,12 @@ input[type=submit]::after {
   background: linear-gradient(to right, #144da0, #70acce);
 }
 
+.breadcrumbs {
+  padding: 3vh 3vw 0;
+  font-size: 1.3vw;
+  color: #343434;
+}
+
 /* --------------------------------
  * header smart phone
  * -------------------------------- */
