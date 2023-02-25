@@ -2,6 +2,7 @@
  * footer
  * -------------------------------- */
 #footer {
+    margin-top: 5vh;
 	padding: 50px 12.3% 24px;
 	color: #fff;
 	background-color: $first;
@@ -111,6 +112,7 @@
                 a {
                     color: #fff;
                     display: block;
+                    font-size: 1.3vw;
                     width: 80%;
                     position: relative;
                 }
@@ -247,7 +249,7 @@
                             width: 85%;
                             border-bottom: 1px solid #fff;
                             position: relative;
-                            font-size: 1.5vw;
+                            font-size: $sp-text;
                             &::after {
                                 content: '';
                                 position: absolute;

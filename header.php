@@ -86,12 +86,15 @@ wp_nav_menu(
             </div>
           </div>
           <div class="page-container">
-<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+          <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
     <?php if(function_exists('bcn_display'))
     {
         bcn_display();
     }?>
+    <?php wp_reset_postdata(); ?>
 </div>
+         
+
 <?php endif; ?>
 
     

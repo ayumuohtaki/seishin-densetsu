@@ -354,7 +354,7 @@ input {
   }
 }
 #company {
-  background-image: url("../images/bg-section-company.jpg");
+  background-image: url("../images/common/back-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1852,6 +1852,7 @@ input {
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 400;
   line-height: 1;
+  text-shadow: #808080 2px 2px 2px;
 }
 
 .page-contents .page-container {
@@ -2830,8 +2831,7 @@ input {
   }
 
   #pg-common .common-item .common-body .caption {
-    margin: 5px 0 7px;
-    font-size: 1.15rem;
+    display: none;
   }
 
   #pg-shop .shops-item:hover .shop-body .seeDetail::after {
@@ -3134,25 +3134,6 @@ input {
     background-image: url("../images/svg/icon-next-short.svg");
   }
 }
-.privacy h2 {
-  margin-top: 4.3%;
-  font-size: 2.6rem;
-  font-weight: 700;
-}
-
-.privacy h2 + p, .privacy .lead-inner ul {
-  font-size: 1.6rem;
-  line-height: 1.9;
-  padding-top: 0px;
-  margin-top: 15px;
-  text-align: inherit;
-}
-
-.privacy .lead-inner ul {
-  margin-left: 21px;
-  list-style-type: disc;
-}
-
 span.search-highlight {
   background: yellow;
 }
@@ -3187,8 +3168,9 @@ iframe {
 }
 
 .lead-inner {
-  max-width: 960px;
+  max-width: 1260px;
   margin: 0 auto 5%;
+  padding: 0 3vw;
 }
 
 #pg-shopDetail .lead-inner p {
@@ -3425,8 +3407,8 @@ input[type=submit]::after {
 }
 
 .lead-inner > p {
-  padding-top: 6.7%;
-  font-size: 1.8rem;
+  padding-top: 3%;
+  font-size: 1.5vw;
   text-align: center;
   line-height: 2;
   letter-spacing: 0.25em;
@@ -4052,6 +4034,10 @@ input[type=submit]::after {
   padding: 3vh 3vw 0;
   font-size: 1.3vw;
   color: #343434;
+  display: block;
+}
+.breadcrumbs .current-item {
+  color: #808080;
 }
 
 /* --------------------------------
@@ -4219,12 +4205,17 @@ input[type=submit]::after {
   #header.fixed .global-nav .menu-item .nav-link::after {
     content: none;
   }
+
+  .breadcrumbs {
+    display: none;
+  }
 }
 /* -------------------------------- */
 /* --------------------------------
  * footer
  * -------------------------------- */
 #footer {
+  margin-top: 5vh;
   padding: 50px 12.3% 24px;
   color: #fff;
   background-color: #144da0;
@@ -4333,6 +4324,7 @@ input[type=submit]::after {
 #footer .footer-nav ul li a {
   color: #fff;
   display: block;
+  font-size: 1.3vw;
   width: 80%;
   position: relative;
 }
@@ -4470,7 +4462,7 @@ input[type=submit]::after {
     width: 85%;
     border-bottom: 1px solid #fff;
     position: relative;
-    font-size: 1.5vw;
+    font-size: 13px;
   }
   #footer .footerContents-sitemap .footer-nav ul li a::after {
     content: "";
@@ -4545,7 +4537,7 @@ input[type=submit]::after {
 #keyvisual .top-slick .slick2 .top-text .text-contents {
   position: relative;
   font-family: serif;
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-shadow: 1px 1px 1px #4D4D4D;
   color: #fff;
   font-weight: bold;
@@ -4637,7 +4629,7 @@ input[type=submit]::after {
   #keyvisual .top-slick .slick2 .top-text .text-contents {
     position: relative;
     font-family: serif;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-shadow: 1px 1px 1px #4D4D4D;
     color: #fff;
     font-weight: bold;
@@ -4810,6 +4802,12 @@ input[type=submit]::after {
   padding: 0;
 }
 
+.map {
+  margin: 10vh 0 3vh;
+  display: flex;
+  justify-content: center;
+}
+
 /* --------------------------------
  * company smart phone
  * -------------------------------- */
@@ -4836,7 +4834,7 @@ input[type=submit]::after {
     display: flex;
     padding: 1vh 4vw;
     font-family: sans-serif;
-    font-size: 1.8vw;
+    font-size: 9px;
     color: #343434;
   }
   .company-policy .container span {
@@ -4865,7 +4863,7 @@ input[type=submit]::after {
     display: flex;
     padding: 1vh 4vw;
     font-family: sans-serif;
-    font-size: 1.8vw;
+    font-size: 9px;
     color: #343434;
   }
   .mp .container span {
@@ -4888,7 +4886,7 @@ input[type=submit]::after {
     display: flex;
     padding: 1vh 4vw;
     font-family: sans-serif;
-    font-size: 1.8vw;
+    font-size: 9px;
     color: #343434;
   }
   .cfc .container span {
@@ -4939,7 +4937,7 @@ input[type=submit]::after {
     border-bottom: #808080 dotted 2px;
     font-family: sans-serif;
     color: #343434;
-    font-size: 1.5vw;
+    font-size: 9px;
   }
   .company-profile .container .left {
     width: 40%;
@@ -5066,32 +5064,32 @@ input[type=submit]::after {
   .business .record .record-contents .p-1 {
     width: 15%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 9px;
     color: #343434;
   }
   .business .record .record-contents .p-2 {
     width: 15%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 9px;
     color: #343434;
     vertical-align: middle;
   }
   .business .record .record-contents .p-3 {
     width: 25%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 9px;
     color: #343434;
   }
   .business .record .record-contents .p-4 {
     width: 20%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 9px;
     color: #343434;
   }
   .business .record .record-contents .p-5 {
     width: 20%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 9px;
     color: #343434;
   }
   .business .record .record-contents th, .business .record .record-contents td {
@@ -5128,7 +5126,7 @@ input[type=submit]::after {
     padding: 2vh 0;
     padding-left: 2vw;
     vertical-align: middle;
-    font-size: 1.5vw;
+    font-size: 9px;
     color: #343434;
   }
   .business .case .text table {
@@ -5142,6 +5140,158 @@ input[type=submit]::after {
   }
   .business .case .wp-block-image img {
     padding: 3vh 0;
+  }
+}
+#privacy-policy {
+  margin: 5vh 0;
+}
+#privacy-policy .page-title {
+  text-align: center;
+  border-bottom: 2px solid #CCCCCC;
+  margin-bottom: 5vh;
+}
+#privacy-policy .page-title .page-title-en {
+  font-family: "Vollkorn", serif;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #144da0;
+}
+#privacy-policy .page-title .page-title-jp {
+  padding-bottom: 2vh;
+  font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #343434;
+}
+#privacy-policy .main-block {
+  margin: 5vh 0;
+}
+#privacy-policy .main-block h3 {
+  border-left: 7px solid #70acce;
+  padding-left: 1vw;
+  margin-bottom: 2vh;
+  font-size: 1.7vw;
+  font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-weight: 500;
+  color: #343434;
+}
+#privacy-policy .main-block p {
+  margin: 5vh 0 7vh;
+  font-size: 1.2vw;
+  color: #343434;
+}
+
+@media (max-width: 769px) {
+  #privacy-policy {
+    margin: 5vh 0;
+  }
+  #privacy-policy .page-title {
+    text-align: center;
+    border-bottom: 2px solid #CCCCCC;
+    margin-bottom: 5vh;
+  }
+  #privacy-policy .page-title .page-title-en {
+    font-family: "Vollkorn", serif;
+    font-size: 2vw;
+    font-weight: 500;
+    color: #144da0;
+  }
+  #privacy-policy .page-title .page-title-jp {
+    padding-bottom: 1vh;
+    font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 3vw;
+    font-weight: 500;
+    color: #343434;
+  }
+  #privacy-policy .main-block {
+    margin: 5vh 0;
+  }
+  #privacy-policy .main-block h3 {
+    border-left: 7px solid #70acce;
+    padding-left: 1vw;
+    margin-bottom: 1vh;
+    font-size: 13px;
+    font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight: 500;
+    color: #343434;
+  }
+  #privacy-policy .main-block p {
+    margin: 2vh 0;
+    font-size: 9px;
+    color: #343434;
+  }
+}
+.privacy-policy {
+  margin: 5vh 0;
+  text-align: center;
+  font-size: 1.5vw;
+  color: #343434;
+}
+.privacy-policy a {
+  color: #144da0;
+  display: inline-block;
+}
+
+.nf-form-wrap .nf-form-layout {
+  padding: 0 10vw;
+}
+.nf-form-wrap .nf-form-layout .nf-before-form-content {
+  margin: 5vh 0;
+  text-align: center;
+}
+.nf-form-wrap .nf-form-layout label {
+  text-align: left;
+}
+.nf-form-wrap .nf-form-layout .nf-field-element {
+  text-align: center;
+}
+.nf-form-wrap .nf-form-layout .nf-form-content input[type=submit] {
+  width: 50%;
+  text-align: center;
+  background: #70acce;
+  box-shadow: #AAAAAA 2px 2px 2px;
+}
+.nf-form-wrap .nf-form-layout .nf-form-content input[type=submit]:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+@media (max-width: 769px) {
+  .privacy-policy {
+    margin: 5vh 0;
+    text-align: center;
+    font-size: 13px;
+    color: #343434;
+    padding: 0;
+  }
+  .privacy-policy a {
+    color: #144da0;
+    display: inline-block;
+  }
+
+  .nf-form-wrap .nf-form-layout {
+    padding: 0;
+  }
+  .nf-form-wrap .nf-form-layout .nf-before-form-content {
+    margin: 5vh 0;
+    text-align: center;
+  }
+  .nf-form-wrap .nf-form-layout label {
+    text-align: left;
+  }
+  .nf-form-wrap .nf-form-layout .nf-field-element {
+    text-align: center;
+  }
+  .nf-form-wrap .nf-form-layout .nf-form-content input[type=submit] {
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+    background: #144da0;
+    box-shadow: #AAAAAA 2px 2px 2px;
+  }
+  .nf-form-wrap .nf-form-layout .nf-form-content input[type=submit]:hover {
+    color: white;
+    opacity: 1;
   }
 }
 

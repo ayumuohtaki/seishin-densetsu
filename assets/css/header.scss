@@ -138,6 +138,10 @@
     padding: 3vh 3vw 0;
     font-size: 1.3vw;
     color: $text;
+    display: block;
+    .current-item {
+        color: #808080;
+    }
 }
 /* --------------------------------
  * header smart phone
@@ -310,5 +314,9 @@
             }
         }
     }
+    .breadcrumbs {
+        display: none;
+    }
 }
+
 /* -------------------------------- */

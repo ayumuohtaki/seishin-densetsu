@@ -1,0 +1,78 @@
+#privacy-policy {
+    margin: 5vh 0;
+    .page-title {
+        text-align: center;
+        border-bottom: 2px solid #CCCCCC;
+        margin-bottom: 5vh;
+        .page-title-en {
+            font-family: 'Vollkorn', serif;
+            font-size: 1.5vw;
+            font-weight: 500;
+            color: $first;
+        }
+        .page-title-jp {
+            padding-bottom: 2vh;
+            font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+            font-size: 2vw;
+            font-weight: 500;
+            color: $text;
+        }
+    }
+    .main-block {
+        margin: 5vh 0;
+        h3 {
+            border-left: 7px solid $second;
+            padding-left: 1vw;
+            margin-bottom: 2vh;
+            font-size: 1.7vw;
+            font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+            font-weight: 500;
+            color: $text;
+        }
+        p {
+            margin: 5vh 0 7vh;
+            font-size: 1.2vw;
+            color: $text;
+        }
+    }
+}
+@media  (max-width: 769px) {
+    #privacy-policy {
+        margin: 5vh 0;
+        .page-title {
+            text-align: center;
+            border-bottom: 2px solid #CCCCCC;
+            margin-bottom: 5vh;
+            .page-title-en {
+                font-family: 'Vollkorn', serif;
+                font-size: 2vw;
+                font-weight: 500;
+                color: $first;
+            }
+            .page-title-jp {
+                padding-bottom: 1vh;
+                font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+                font-size: 3vw;
+                font-weight: 500;
+                color: $text;
+            }
+        }
+        .main-block {
+            margin: 5vh 0;
+            h3 {
+                border-left: 7px solid $second;
+                padding-left: 1vw;
+                margin-bottom: 1vh;
+                font-size: $sp-text;
+                font-family: "Open Sans", "YakuHanJPs", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+                font-weight: 500;
+                color: $text;
+            }
+            p {
+                margin: 2vh 0 ;
+                font-size: $sp-text-2;
+                color: $text;
+            }
+        }
+    }
+}

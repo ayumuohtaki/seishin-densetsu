@@ -5,7 +5,7 @@
                           <p class="name"><?php the_title(); ?></p>
                           <p class="caption"><?php echo get_flexible_excerpt( 40 ); ?></p>
                           <div class="buttonBox">
-                            <button type="button" class="seeDetail">MORE</button>
+                            <button type="button" class="seeDetail">詳細を見る</button>
                           </div>
                         </div>
                       </a>

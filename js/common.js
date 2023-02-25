@@ -70,7 +70,7 @@ jQuery(document).on("click", ".openbtn8" ,function () {
     // speed: 1000,
     // arrows: false,
   
-    autoplay: false, //自動でスクロール
+    autoplay: true, //自動でスクロール
       autoplaySpeed: 8000, //自動再生のスライド切り替えまでの時間を設定
       speed: 1000, //スライドが流れる速度を設定
       cssEase: "linear", //スライドの流れ方を等速に設定

@@ -1,0 +1,75 @@
+.privacy-policy {
+    margin: 5vh 0;
+    text-align: center;
+    font-size: 1.5vw;
+    color: $text;
+    a {
+        color: $first;
+        display: inline-block;
+    }
+}
+.nf-form-wrap {
+    .nf-form-layout {
+        padding: 0 10vw;
+        .nf-before-form-content {
+            margin: 5vh 0;
+            text-align: center;
+        }
+        label {
+            text-align: left;
+        }
+        .nf-field-element {
+            text-align: center;
+        }
+        .nf-form-content input[type=submit] {
+            width: 50%;
+            text-align: center;
+            background: $second;
+            box-shadow: #AAAAAA 2px 2px 2px;
+            &:hover {
+                color: white ;
+                opacity: 0.8;
+            }
+
+        }
+    }
+}
+@media  (max-width: 769px) {
+    .privacy-policy {
+        margin: 5vh 0;
+        text-align: center;
+        font-size: $sp-text;
+        color: $text;
+        padding: 0;
+        a {
+            color: $first;
+            display: inline-block;
+        }
+    }
+    .nf-form-wrap {
+        .nf-form-layout {
+            padding: 0;
+            .nf-before-form-content {
+                margin: 5vh 0;
+                text-align: center;
+            }
+            label {
+                text-align: left;
+            }
+            .nf-field-element {
+                text-align: center;
+            }
+            .nf-form-content input[type=submit] {
+                margin-top: 2vh;
+                width: 100%;
+                text-align: center;
+                background: $first;
+                box-shadow: #AAAAAA 2px 2px 2px;
+                &:hover {
+                    color: white ;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
